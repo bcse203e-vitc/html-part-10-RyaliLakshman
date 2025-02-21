@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country-State Dropdown</title>
+    <link rel="stylesheet" href="styles8part10.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Select Country & State</h2>
+
+        <label for="country">Choose a Country:</label>
+        <select id="country" onchange="populateStates()">
+            <option value="">Select a country</option>
+            <option value="USA">USA</option>
+            <option value="India">India</option>
+            <option value="UK">UK</option>
+        </select>
+
+        <label for="state">Choose a State:</label>
+        <select id="state">
+            <option value="">Select a state</option>
+        </select>
+    </div>
+
+    <script src="script8part10.js"></script>
+</body>
+</html>
