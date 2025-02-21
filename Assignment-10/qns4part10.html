@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Table Generator</title>
+    <link rel="stylesheet" href="styles4part10.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Multiplication Table Generator</h1>
+
+        <fieldset>
+            <legend>Enter a Number</legend>
+            <label for="number">Number:</label>
+            <input type="number" id="number" min="1" required>
+            <button onclick="generateTable()">Generate</button>
+        </fieldset>
+
+        <!-- Table Output -->
+        <h2>Multiplication Table:</h2>
+        <table id="multiplicationTable"></table>
+    </div>
+
+    <script src="script4part10.js"></script> <!-- External JavaScript File -->
+</body>
+</html>
