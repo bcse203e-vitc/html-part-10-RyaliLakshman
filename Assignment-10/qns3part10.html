@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="styles3part10.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Order Your Pizza </h1>
+
+        
+        <h2>Select Pizza Size:</h2>
+        <label><input type="radio" name="size" value="Small"> Small</label>
+        <label><input type="radio" name="size" value="Large"> Large</label>
+
+        
+        <h2>Select Toppings:</h2>
+        <label><input type="checkbox" name="topping" value="Cheese"> Cheese</label>
+        <label><input type="checkbox" name="topping" value="Mushrooms"> Mushrooms</label>
+        <label><input type="checkbox" name="topping" value="Onions"> Onions</label>
+
+        <br><br>
+        <button onclick="submitOrder()">Submit Order</button>
+
+        <h2>Your Order:</h2>
+        <p id="orderSummary"></p>
+    </div>
+
+    <script src="script3part10.js"></script> <!-- External JavaScript -->
+</body>
+</html>
